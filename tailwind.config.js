@@ -10,6 +10,10 @@ module.exports = {
   ],
   theme: {
     extend: {
+        screens: {
+            'tablet': '640px',
+            'desktop': '1024px',
+          },
       colors:{
         primary: "#000000",
         secondary: "#ffffff"
