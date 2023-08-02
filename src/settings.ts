@@ -1,4 +1,4 @@
 export default {
-  isDebugWithStringMode: true,
-  isDebugMode: true,
+  isDebugWithStringMode: false,
+  isDebugMode: false,
 };
