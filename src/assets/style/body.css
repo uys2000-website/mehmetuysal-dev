@@ -1,0 +1,13 @@
+@layer base {
+  body {
+    @apply min-h-screen;
+    @apply bg-primary text-secondary;
+  }
+  h1 {
+    @apply text-3xl md:text-5xl xl:text-6xl;
+  }
+
+  h2 {
+    @apply text-2xl md:text-4xl xl:text-5xl;
+  }
+}
