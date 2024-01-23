@@ -3,22 +3,30 @@
     <ul class="flex w-full justify-center relative">
       <li>
         <RouterLink to="/">
-          <IconHome class="icon fill-white w-10 h-10" />
+          <span class="icon material-symbols-rounded text-white text-[36px] w-10 inline-block text-center">
+            home
+          </span>
         </RouterLink>
       </li>
       <li class="active">
         <RouterLink to="/codes">
-          <IconCode class="icon fill-white w-10 h-10" />
+          <span class="icon material-symbols-rounded text-white text-[36px] w-10 inline-block text-center">
+            code
+          </span>
         </RouterLink>
       </li>
       <li>
         <RouterLink to="/about">
-          <IconUser class="icon fill-white w-10 h-10" />
+          <span class="icon material-symbols-rounded text-white text-[36px] w-10 inline-block text-center">
+            person
+          </span>
         </RouterLink>
       </li>
       <li>
         <RouterLink to="/contact">
-          <IconEnvelope class="icon fill-white w-10 h-10" />
+          <span class="icon material-symbols-rounded text-white text-[36px] w-10 inline-block text-center">
+            mail
+          </span>
         </RouterLink>
       </li>
       <div class="icon cursor" :style="`transform: translateX(${page * 100}%);`">

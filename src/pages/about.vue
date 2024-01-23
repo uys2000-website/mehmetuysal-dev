@@ -1,5 +1,10 @@
 <template>
   <div class="flex flex-col h-full">
+
+    <Head>
+      <title>Mehmet Uysal: Personal Information of Mehmet Uysal And Links</title>
+      <Meta name="description" content="Personal Information of Mehmet Uysal And Links" />
+    </Head>
     <header class="w-full mt-8 flex justify-center items-center">
       <div class="h-px w-full bg-white"></div>
       <h1 class="shrink-0">
@@ -20,6 +25,11 @@
         </li>
         <li>
           <a href="https://www.instagram.com/uys.2000/" target="_blank">Instagram</a>
+        </li>
+        <li>
+          <RouterLink to="/privacy">
+            Privacy Polices
+          </RouterLink>
         </li>
       </ul>
     </div>

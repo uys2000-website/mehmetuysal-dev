@@ -1,5 +1,10 @@
 <template>
   <div class="flex flex-col h-full">
+
+    <Head>
+      <title>Mehmet Uysal: Contact information for Mehmet Uysal</title>
+      <Meta name="description" content="Contact information for Mehmet Uysal" />
+    </Head>
     <header class="w-full mt-8 flex justify-center items-center">
       <div class="h-px w-full bg-white"></div>
       <h1 class="shrink-0">
@@ -28,7 +33,7 @@
 
 <style scoped>
 .image {
-  background-image: url("me.jpg");
+  background-image: url("/me.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
