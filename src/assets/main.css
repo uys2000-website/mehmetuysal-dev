@@ -1,17 +1,4 @@
-@import "./fonts.css";
-@import "./overrides.css";
-
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-@layer base {
-  .h-page {
-    @apply h-screen;
-  }
-}
-
-.h-app-page {
-  height: calc(100vh - 80px);
-  height: calc(100dvh - 80px);
-}
+@import 'tailwindcss';
+@import 'tailwindcss-animated';
+@plugin "@tailwindcss/typography";
+@plugin "daisyui";
