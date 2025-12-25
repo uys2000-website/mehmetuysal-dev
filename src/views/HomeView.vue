@@ -1,11 +1,15 @@
 <template>
-  <div>
-    <h1>Home View</h1>
-  </div>
+  <main>
+    <Landing />
+  </main>
 </template>
 
 <script lang="ts">
-export default {
+import { defineAsyncComponent } from 'vue';
 
+export default {
+  components: {
+    Landing: defineAsyncComponent(() => import("@/components/sections/LandingSection.vue"))
+  }
 }
 </script>

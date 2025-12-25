@@ -4,6 +4,7 @@ metadata:
   name: mehmetuysal-dev
   annotations:
     github.com/project-slug: uys2000-website/mehmetuysal-dev
+    backstage.io/techdocs-ref: dir:.
 spec:
   type: other
   lifecycle: unknown
