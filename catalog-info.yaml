@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: mehmetuysal-dev
+  annotations:
+    github.com/project-slug: uys2000-website/mehmetuysal-dev
+spec:
+  type: other
+  lifecycle: unknown
+  owner: guests
