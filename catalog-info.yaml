@@ -5,15 +5,17 @@ metadata:
   annotations:
     github.com/project-slug: uys2000-website/mehmetuysal-dev
   links:
-    - url: https:/mehmetuysal.dev
-      title: My Dashboard
+    - url: https://mehmetuysal.dev
+      title: Web Url
       icon: dashboard
+      type: admin-dashboard
   tags:
     - vue
     - typescript
     - vite
     - tailwindcss
 spec:
-  type: other
-  lifecycle: unknown
+  type: website
+  lifecycle: production
   owner: guests
+  system: public-websites
