@@ -5,8 +5,10 @@ metadata:
   annotations:
     github.com/project-slug: uys2000-website/mehmetuysal-dev
     backstage.io/managed-by-origin-location: url:http://github.com/backstage/backstage/blob/master/catalog-info.yaml
-
-
+  links:
+    - url: https:/mehmetuysal.dev
+      title: My Dashboard
+      icon: dashboard
 spec:
   type: other
   lifecycle: unknown
