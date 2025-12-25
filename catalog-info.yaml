@@ -8,6 +8,11 @@ metadata:
     - url: https:/mehmetuysal.dev
       title: My Dashboard
       icon: dashboard
+  tags:
+    - vue
+    - typescript
+    - vite
+    - tailwindcss
 spec:
   type: other
   lifecycle: unknown
